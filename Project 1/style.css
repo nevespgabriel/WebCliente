@@ -10,7 +10,6 @@ body{
 input{
     border: none;
     width: 20rem;
-    height: 1.5rem;
     padding: 0.5rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -28,7 +27,9 @@ section{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     width: 1000px;
-    gap: 10px;
+    column-gap: 50px;
+    row-gap: 25px;
+    width: 100%;
 }
 
 textarea{
