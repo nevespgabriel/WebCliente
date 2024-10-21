@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgs{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+button{
+    border: none;
+    background-color: white;
+}
+
+button>img{
+    height: 3rem;
+}
+
+.imgs>img{
+    width: 30rem;
+    height: 18rem;
+    border-radius: 3%;
+}
+
+.grid-container{
+    display: grid;
+    width: 49rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.black{
+    background-color: black;
+    color: aliceblue;
+}
+
+.grid-container>*>h3, h5{
+    text-align: center;
+}
+.grid-container>*{
+    padding: 0.5rem;
+}
