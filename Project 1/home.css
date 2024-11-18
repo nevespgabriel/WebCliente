@@ -15,7 +15,7 @@ body{
 }
 button{
     border: none;
-    background-color: white;
+    background-color: #ECDFCC;
 }
 
 button>img{
@@ -67,6 +67,17 @@ table th {
 
 table td {
     padding: 0.5rem;
+}
+
+.main-container{
+    width: 65rem;
+    padding: 25px;
+    background-color: #ECDFCC; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #3C3D37;
 }
 
 

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="contact">
+        <h3>Contact Me</h3>
+        <form action="" method="post" autocomplete="on" class="form">
+            <label for="name">
+                Name <br>
+                <input type="text" id="name" name="name" placeholder="Type your name">
+            </label>
+            <label for="email">
+                Email <br> 
+                <input type="text" id="email" name="email" placeholder="Type your email">
+            </label>
+            <label for="subject">
+                Subject 
+                <select name="subject" id="subject">
+                    <option value="important">Important</option>
+                    <option value="half-important">Half-important</option>
+                    <option value="not-important">Not-important</option>
+                </select>
+            </label>
+            <label for="message" id="msg">
+                Message <br>
+                <textarea id="message" cols="40" rows="10"></textarea>
+            </label>
+            <input type="submit" value="Send" class="submit">
+        </form>
+    </section>
+</body>
+</html>

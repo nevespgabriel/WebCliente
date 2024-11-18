@@ -88,9 +88,23 @@ main{
 .contact{
     display: flex;
     flex-direction: column;
+    color: #3C3D37;
 }
 
 .contact>h3{
     font-size: 1.5rem;
     text-align: center;
+}
+
+.pages{
+    margin: 2.7rem 0 0.7rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.pages>*{
+    color:#3C3D37;
+    text-decoration: none;
+
 }
