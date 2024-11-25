@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(236, 245, 242);
+        }
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin: 2rem;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        label{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 2rem;
+        }
+        input{
+            padding: 0.3rem;
+            margin-top: 1rem;
+            border-radius: 20px;
+            font-size: 1rem;
+        }
+        #insert{
+            margin-top: 1rem;
+            margin-left: 13.5rem;
+            border: none;
+            color: white;
+            padding: 0.3rem 0.7rem;
+            border-radius: 20px;
+            font-size: 1rem;
+            background-color: rgb(99, 116, 110);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        button{
+            border: none;
+            color: white;
+            padding: 0.3rem 0.7rem;
+            border-radius: 20px;
+            font-size: 1rem;
+            background-color: rgb(99, 116, 110);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        button:hover, #insert:hover{
+            background-color: rgb(49, 58, 55);
+        }
+    </style>
+</head>
+<body>
+    <label for="name">
+        Name:
+        <input type="text" name="name" id="name">
+    </label>
+    <br>
+    <label for="grade">
+        Grade: 
+        <input type="text" name="grade" id="grade">
+    </label>
+    <br>
+    <button id="insert">
+        Insert
+    </button>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Grade</th>
+        </tr>
+    </table>
+    <script src="./app.js"></script>
+</body>
+</html>
