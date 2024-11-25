@@ -1,0 +1,15 @@
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro{
+    width: 40%;
+    height: 50%;
+    background-color: rgb(190, 190, 190);
+    padding: 1rem;
+    border-radius: 2rem;;
+}
